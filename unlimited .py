@@ -20,6 +20,32 @@ cokbrut=[]
 ses=requests.Session()
 ugen=[]
 ugen=[]
+for ua in range(1000):
+      a='Mozilla/5.0 (Linux; Android'
+      b=random.choice(['11' , '12' , '13' , '14' , '15'])
+      c='SM-A125U Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+      d=random.randrange(40,100)
+      e='0'
+      f=random.randrange(3000,6000)
+      g=random.randrange(20,100)
+      h='Mobile Safari/537.36'
+      ug=(f"{a} {b}; {c}{d}.{e}.{f}.{g} {h}")
+      ugen.append(ug)
+for x in range(10000):
+	aa='Mozilla/5.0 (Windows NT 6.1; WOW64)'
+	b=random.choice(['4','5','6','7','8','9','10','11','12'])
+	c='ASUS_I006D Build/RKQ1.201022.002'
+	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	e=random.randrange(1, 999)
+	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	g='AppleWebKit/537.36 (KHTML, seperti Gecko) Chrome/55.0.2883.87 Safari/537.36 Sleipnir/6.2.3'
+	h=random.randrange(73,100)
+	i='0'
+	j=random.randrange(4200,4900)
+	k=random.randrange(40,150)
+	l='Mobile Safari/537.36 Sleipnir/3.5.28'
+	uakua=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
+	'useragent.append',(uakua)
 for ng in range(10000):
 	a='Mozilla/5.0 (Linux; Android' 
 	b=random.choice(['8','9','10','11','12','13','14','15'])
